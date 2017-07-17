@@ -321,8 +321,8 @@ li.nav-item .btn-white {
 }
 
 .cover-2 {
-    background: #2b2d34 url(../images/cover-bg-1.jpg) center;
-    background: #000000;
+/*    background: #2b2d34 url(../images/cover-bg-1.jpg) center;
+    background: #000000;*/
     /*background-size: cover;*/
     /*min-height: 50rem;*/
     height: auto;
@@ -710,11 +710,17 @@ canvas {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000000;
+/*    background-color: #000000;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
+    
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, blue); /* Standard syntax (must be last) */
 }
 
 h2 {
