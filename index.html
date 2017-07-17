@@ -57,7 +57,6 @@
     <section class="features-1 text-center" style="padding-top: 20px; padding-bottom: 22px">
       <a name='whatwedo'></a>
       <div class="container section">
-      
         <h2>What we do</h2>
         <div class="divider"></div>
         <div class="row">
@@ -75,11 +74,10 @@
       </div>
     </section>
     <section class="features-4 text-center featurescolor" style="padding-top: 0px; padding-bottom: 20px">
-    <a name='features'></a>
+      <a name='features'></a>
       <div class="container section" style="padding-top: 0px; padding-bottom: 6px">
         <div class="row justify-center">
           <div class="col-md-8 text-center">
-          
             <h2>Features</h2>
             <!-- <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p> -->
             <!-- <div class="divider"></div> -->
@@ -88,7 +86,7 @@
       </div>
     </section>
     <section class="features-4 text-center" style="padding-top: 20px; padding-bottom: 22px">
-      <div class="container section" >
+      <div class="container section">
         <div class="row justify-center">
           <div class="col-md-8 text-center">
           </div>
@@ -138,36 +136,40 @@
       </div>
     </section>
     <section class="contact-2">
-    <a name='contact'></a>
+      <a name='contact'></a>
       <div class="container section">
         <div class="row contact-details">
-
           <div class="col-sm-8 offset-sm-2 text-center">
             <h2>Try Woodcutter</h2>
-            <p class="lead constrain-width mt-4">Working on that dream project? We can help you out.<br>Get in touch for a demo.</p>
+            <p class="lead constrain-width mt-4">Working on that dream project? We can help you out.
+              <br>Get in touch for a demo.</p>
             <div class="divider"></div>
-            <h4>Contact Us</h4>
-            <form class="contact-form mt-4" action="https://formspree.io/your@email.com" method="POST">
+            <!-- <h4>Contact Us</h4> -->
+            <div style="display:none;" id="thankyou_message">
+              <h4><em>Thanks</em> for contacting us!<br>
+               We will get back to you soon!</h4>
+            </div>
+            <form class="contact-form mt-4" id="gform" method="post" action="https://script.google.com/macros/s/AKfycby9HrLPONhKg0Nsox1LwGGgXE2RBVJ0xo01Fj97bnThmRW3L2g/exec">
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" class="form-control-custom mb-4" placeholder="Name" value="Name">
+                  <input type="text" class="form-control-custom mb-4" placeholder="Name"  name="name">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control-custom mb-4" placeholder="Email" value="Email address">
+                  <input type="email" class="form-control-custom mb-4" required="yes"  value="Email address" name="email">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control-custom mb-4" placeholder="Organisation" value="Organisation">
+                  <input type="text" class="form-control-custom mb-4" placeholder="Organisation"  name="organisation">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control-custom mb-4" placeholder="Phone" value="Phone">
+                  <input type="text" class="form-control-custom mb-4" placeholder="Phone"  name="phone">
                 </div>
                 <br />
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <textarea class="form-control-custom mb-4" rows="3">Tell us about your project</textarea>
+                  <textarea class="form-control-custom mb-4" rows="3" name="message">Tell us about your project</textarea>
                   <br />
-                  <button type="submit" class="btn btn-primary btn-lg mb-4" value="Send">Send Message</button>
+                  <button type="submit" class="btn btn-primary btn-lg mb-4">Send Message</button>
                 </div>
               </div>
             </form>
@@ -192,6 +194,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   </div>
 </body>
 
