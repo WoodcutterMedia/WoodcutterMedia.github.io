@@ -754,3 +754,22 @@ h2 {
 #myBtn:hover {
     background-color: green; /* Add a dark-grey background on hover */
 }
+
+
+.readabilty {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.box
+{
+    text-align: center;
+    
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
