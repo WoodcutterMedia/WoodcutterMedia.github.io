@@ -410,7 +410,7 @@ li.nav-item .btn-white {
 }
 
 .features-4 h2 {
-    margin-top: 2rem;
+    margin-top: 0.2rem;
     color: #fff;
 }
 
@@ -758,7 +758,7 @@ h2 {
 
 .readabilty {
     font-family: Lato;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
@@ -768,7 +768,6 @@ h2 {
 .box
 {
     text-align: center;
-    
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
