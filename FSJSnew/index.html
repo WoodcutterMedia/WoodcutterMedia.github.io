@@ -27,6 +27,7 @@
     <link rel="icon" href="images/favicon.ico">
     <script src="scripts/particles.js"></script>">
     <script src="scripts/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Extra optional content header -->
 </head>
 
@@ -47,7 +48,7 @@
                             <li><a>About Us</a></li>
                             <li><a>What We Offer</a></li>
                             <li><a>Labs</a></li>
-                            <!--                             <li><a>Clients</a></li> -->
+                            <!-- <li><a>Clients</a></li> -->
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
@@ -73,11 +74,13 @@
                             Where human creativity meets machine intelligence
                         </p>
                         <hr class="space m" />
-                        <a href="#" class="circle-button btn btn-sm btn-border anima anima-pulse">Try for free</a>
+                        <a href="#contactus" class="circle-button btn btn-sm btn-border anima anima-pulse">Try for free</a>
                     </div>
                 </div>
             </div>
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-outline-info"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
         <div class="section overlay-container">
             <div class="content container text-center box-middle">
                 <div class="col-md-6 col-feature text-left" style="color: white;">
@@ -91,47 +94,49 @@
                 </div>
             </div>
         </div>
-        <div class="section overlay-container" style="background-color: #237c85;">
+        <div class="section overlay-container" style="background-color: #3096d6;">
             <div class="content container text-center box-middle">
                 <div class="col-md-12 col-feature text-center">
                     <h1 style="color: white;">What We Offer</h1>
                     <br>
                     <br>
                 </div>
-                <div class="col-md-4 col-feature text-center rounded" style="color: white; border-right: 1px dashed;">
-                    <div class="justify-center">
-                        <img src="images/sentiment.png" height="100px">
+                <div class="row">
+                    <div class="col-md-4 col-feature text-center rounded " style="color: white; border-right: 1px solid;">
+                        <div class="justify-center">
+                            <img src="images/sentiment.png" height="100px">
+                        </div>
+                        <h1 style="color:white;">Sentiment Measurement</h1>
+                        <p class="readabilty text-justify">
+                            Know your audience better. Learn what they like, dislike and expect from your content by analysing sentiments expressed on the web including Twitter, Facebook, YouTube, blogs and the public web.
+                            <br>
+                            <br>
+                        </p>
                     </div>
-                    <h1 style="color:white;">Sentiment Measurement</h1>
-                    <p class="readabilty text-justify">
-                        Know your audience better. Learn what they like, dislike and expect from your content by analysing sentiments expressed on the web including Twitter, Facebook, YouTube, blogs and the public web.
-                        <br>
-                        <br>
-                    </p>
-                </div>
-                <div class="col-md-4 col-feature text-center" style="color: white; border-right: 1px dashed;">
-                    <div class="justify-center">
-                        <img src="images/competitor.png" height="100px">
+                    <div class="col-md-4 col-feature text-center " style="color: white; border-right: 1px solid;">
+                        <div class="justify-center">
+                            <img src="images/competitor.png" height="100px">
+                        </div>
+                        <h1 style="color:white;">Performance Benchmarking</h1>
+                        <p class="readabilty text-justify">
+                            Compare performance of your movie or video content with that of content in the same genre. You will know where you stand and where you need to improve.
+                            <br>
+                            <br>
+                        </p>
                     </div>
-                    <h1 style="color:white;">Performance Benchmarking</h1>
-                    <p class="readabilty text-justify">
-                        Compare performance of your movie or video content with that of content in the same genre. You will know where you stand and where you need to improve.
-                        <br>
-                        <br>
-                    </p>
-                </div>
-                <div class="col-md-4 col-feature text-center" style="color: white; border-right: 1px dashed;">
-                    <div class="justify-center">
-                        <img src="images/marketing.png" height="100px">
+                    <div class="col-md-4 col-feature text-center" style="color: white;">
+                        <div class="justify-center">
+                            <img src="images/marketing.png" height="100px">
+                        </div>
+                        <h1 style="color:white;">Promotion<br>Strategy</h1>
+                        <p class="readabilty text-justify">
+                            With our bots bringing in relevant industry data from all over the web, you can now design and launch your promotions with the content that connects with your audience and at the sweetspot time that gets you maximum reach.
+                        </p>
                     </div>
-                    <h1 style="color:white;">Promotion<br>Strategy</h1>
-                    <p class="readabilty text-justify">
-                        With our bots bringing in relevant industry data from all over the web, you can now design and launch your promotions with the content that connects with your audience and at the sweetspot time that gets you maximum reach.
-                    </p>
                 </div>
             </div>
         </div>
-        <div class="section overlay-container" style="background-image:url('images/hd-18.jpg');">
+        <div class="section overlay-container">
             <div class="content container text-center box-middle">
                 <div class="col-md-12 col-feature text-center">
                     <h1 style="color: white;">Labs</h1>
@@ -144,15 +149,18 @@
                     </div>
                     <h1 style="color:white;">Script Analysis</h1>
                     <p class="readabilty">
-                        Consult on success probability of new scripts, with a statistical accuracy,<br> using machine learning that identifies success patterns based on<br>historical data of successful film scripts. We compare your script with historical data points<br> of thousands of previous films including theme, sentiment, and structure.
+                        Consult on success probability of new scripts, with a statistical accuracy,
+                        <br> using machine learning that identifies success patterns based on
+                        <br>historical data of successful film scripts. We compare your script with historical data points
+                        <br> of thousands of previous films including theme, sentiment, and structure.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="section overlay-container white" style="background-image:url('images/socialmedia.jpg');">
+        <div id="contactus" class="section overlay-container white" style="background-image:url('images/socialmedia.jpg');">
             <div class="container content box-middle">
                 <div class="row">
-                    <div class="col-md-3" data-fullpage-anima="fade-left">
+                    <div class="col-md-3">
                         <h1 class="text-l text-black">
                             Get in touch
                         </h1>
@@ -170,8 +178,8 @@
                             <li><i class="fa-li im-envelope"></i>hello@woodcutter.co</li>
                         </ul>
                     </div>
-                    <div class="col-md-9" data-fullpage-anima="show-scale">
-                        <form id="gform" action="https://script.google.com/macros/s/AKfycby9HrLPONhKg0Nsox1LwGGgXE2RBVJ0xo01Fj97bnThmRW3L2g/exec" class="form-box form-ajax form-blue" method="post">
+                    <div class="col-md-9">
+                        <form id="gform" action="https://Xscript.google.com/macros/s/AKfycby9HrLPONhKg0Nsox1LwGGgXE2RBVJ0xo01Fj97bnThmRW3L2g/exec" class="form-box form-ajax form-blue" method="post">
                             <div class="row">
                                 <div class="col-md-6">
                                     <input id="name" name="name" placeholder="Name" type="text" class="form-control form-value" required="yes">
@@ -187,11 +195,11 @@
                                     <hr class="space xs">
                                     <textarea id="messagge" name="messagge" placeholder="Tell us about your project" class="form-control form-value" required=""></textarea>
                                     <hr class="space s">
-                                    <button class="btn-xs btn white" type="submit"><i class="im-envelope"></i>Send messagge</button>
+                                    <button class="circle-button btn btn-sm btn-border" type="submit"><i class="im-envelope"></i>Send messagge</button>
                                 </div>
                             </div>
                             <div class="success-box">
-                                <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                                <div id="thankyoumessage" class="alert alert-success">Congratulations. Your message has been sent successfully</div>
                             </div>
                             <div class="error-box">
                                 <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
@@ -205,7 +213,7 @@
             <div class="container content box-middle">
                 <div class="row">
                     <h1>
-                        Made with love in Chennai
+                        Made with <i class="fa fa-heart" aria-hidden="true" style="color:red"></i> in Chennai
                     </h1>
                 </div>
             </div>
@@ -219,10 +227,45 @@
         <link rel="stylesheet" href="scripts/iconsmind/solid-icons.min.css">
         <script async src="scripts/bootstrap/js/bootstrap.min.js"></script>
         <script src="scripts/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" async src='scripts/php/contact-form.js'></script>
         <script src="scripts/flexslider/jquery.flexslider-min.js"></script>
         <script src="scripts/jquery.fullPage.min.js"></script>
         <script src="scripts/jquery.twbsPagination.min.js"></script>
+        <!-- Google Analytics -->
+        <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-102643959-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+        <!-- go to top button -->
+        <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+        </script>
     </footer>
 </body>
 
