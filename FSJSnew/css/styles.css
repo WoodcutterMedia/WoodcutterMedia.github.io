@@ -1,0 +1,57 @@
+/*WoodCutter.co Style Scheme*/
+.woodblue {
+    color: #2DA2AE !important;
+}
+
+/*Features Box Sizing*/
+.equibox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+/*.equibox > [class*='col-'] {
+     display: flex;
+     flex-direction: column;
+}*/
+/*canvas and particles*/
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-overlay h1 {
+    font-size: 4.2rem;
+    white-space: nowrap;
+    color: white;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+    min-height: 1200px;
+}
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+/*    background-color: #000000;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;*/
+    
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, #212120); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #212120); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, #212120); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #212120); /* Standard syntax (must be last) */
+}
