@@ -1,6 +1,8 @@
 /*MDBootstrap Skinner v1.10*/
 
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400i|Open+Sans:400,600,700,800');
+/*@import url('https://fonts.googleapis.com/css?family=Catamaran|Quicksand');*/
+@import url('https://fonts.googleapis.com/css?family=Assistant');
 
 .dropdown-menu > li > a:before, .navbar-nav > li.dropdown > a:after, .nav-pills > li > a:hover, .fa-li, i.icon, .counter-inverse .icon-box-cell p,
 i.square, i.circle, .niche-box-testimonails > h5 span, .timeline small, .comment-list .name span, a.collapse-button:hover,
@@ -634,7 +636,7 @@ SKIN DESIGN
 */
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 27px;
     color: #5a5a5a;
     font-weight: 300;
