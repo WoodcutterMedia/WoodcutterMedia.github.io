@@ -5464,7 +5464,7 @@ SKIN WHITE
     background-color: rgba(250,250,250,0.51) !important;
 }
 
-.white .advs-box h4, .white .navbar-nav > .active > a, .white .navbar-nav > .active > a:hover, .white .navbar-nav > .active > a:focus, .white .navbar-nav > .open > a, .white .navbar-nav > .open > a:hover, .white .navbar-nav > .open > a:focus, .white .navbar-nav > li > a:focus, .white, .white ul li, .white p, .white .breadcrumb > .active, .white .navbar-nav > li > a, .white .navbar-nav > li > a:hover, .white .dropdown-menu > li > a, .white .niche-box-testimonails h5, .white .title-base h1, .white .title-base h2, .white .title-base h3, .white ul.list-texts li b {
+.white .advs-box h4, .white .navbar-nav > .active > a, .white .navbar-nav > .active > a:hover, .white .navbar-nav > .active > a:focus, .white .navbar-nav > .open > a, .white .navbar-nav > .open > a:hover, .white .navbar-nav > .open > a:focus, /*.white .navbar-nav > li > a:focus, .white, .white ul li, .white p, .white .breadcrumb > .active, .white .navbar-nav > li > a, .white .navbar-nav > li > a:hover,*/ .white .dropdown-menu > li > a, .white .niche-box-testimonails h5, .white .title-base h1, .white .title-base h2, .white .title-base h3, .white ul.list-texts li b {
     color: #FAFAFA !important;
 }
 
