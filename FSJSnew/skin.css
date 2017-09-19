@@ -316,7 +316,7 @@ div [class*="col-md-"].boxed.bg-red {
 }
 
 div [class*="col-md-"].boxed.bg-gray, .form-blue .form-control {
-    background-color: #1b5982 !important;
+    background-color: #000000 !important;
 }
 
 .form-blue .form-control {
