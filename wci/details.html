@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Woodcutter Index - Demo</title>
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Highcharts Stuff -->
+    <script src="js/highcharts.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(150,225,250);">
+    <ul class="nav" style="background-color: lightblue;">
+        <li class="nav-item dropdown ml-md-auto">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">Select Movie</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="index.html">Raazi</a>
+                <a class="dropdown-item" href="thepast-index.html">The Past</a>
+                <a class="dropdown-item" href="veer-index.html">Veer Ki Wedding</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="compare.html">Compare</a>
+
+            </div>
+        </li>
+    </ul>
+    <div class="container-fluid spazetop">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img src="images/raazi.jpg" style="height: 150px;">
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-md-2" style="margin-left: 20px ">
+                        <div class="marginz">
+                        <h1>Raazi</h1>
+                        <h1 style="color: green; font-size: 2.5em;"><b>7.9</b><sup>WI</sup></h1>
+                        <a href="index.html" class="btn btn-outline-success" role="button"><i class="fas fa-chevron-left"></i> Overview</a>
+                        <!-- <b class="greycolor">Cast:</b> <span class="greycolor">Alia Bhatt, Vicky Kaushal, Ashwath Bhatt, Rajit Kapur </span>
+                        <br>
+                        <span class="greycolor">
+                            <b>Release date:</b>11 May 2018 (India)<br>
+                            <b>Director:</b> Meghna Gulzar<br>
+                            <b>Producers:</b> Karan Johar, Vineet Jain, Priti Shahan<br>
+                            </span> -->
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="raazimain" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Basic data  -->
+        
+        <!-- End basic data -->
+        <!-- Mind map start -->
+        <div class="row">
+            <div class="col-md-12 spazetop">
+                <div class="container-fluid spazetop">
+                    <h4 class="mb-3 spazetop hdtxtcolor"><center>Sentiment Mapping</center></h4>
+                    <center><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36\&quot; version=\&quot;8.6.5\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;02931818-c045-b87f-1095-61189a29de51\&quot; name=\&quot;Page-1\&quot;&gt;5VnRcuI2FP0aZp+SsS1szCMQkmbaNJ2QbbuPwha2irCoLQfYr69kS9iyBaEJJts0MwnmXEn3Svfo6Mrpgclqe5fCdfxAQ0R6jhVue+Cm5zhD1+J/BbArAdfxSiBKcVhCdgXM8HckQdkvynGIMq0ho5QwvNbBgCYJCpiGwTSlG73ZghLd6xpGqAXMAkja6B84ZHGJ+mpaAv8J4ShWnm1LWuYwWEYpzRPpr+eARfFTmldQjSXbZzEM6aYGgWkPTFJKWfm02k4QEUurlq3sd3vAuo87RQk7pYNTdniBJEcqYo/wruMQv4j42E6uifd3LoIaM7RlV5DgKOmBEW9B0IJVVv4Uic/JaPasRsryuYI9a6lQHlPN0BNxloYF5aGbPAvDVVZwRTi2/fW27djn47g1H+VoyskeLmanUEdz5xTpQ2KBbG7exJih2RoGwrrhbOdYzFZEmheYkAklNC36As8bO7e3YtIspUtUtwQ+mi/2/l5QylfyYNbsPRf4FkN0hVi6401UB0VEub3svvy+qchqK4rFNaKqdlDuj2g/dMUR/iBpYqbMoCPKPHyd3U8MnHGu3YOk8eBK5COZZ+taft/HoAF4nUEnBNEKtWvqTSZT10y9ue/2OWO6od7wgtTzW9S7uX+aTp7vH3/lXWfPj0/fDhPoX2TpnRLkHSNQF2Jzjrxael4dg6Q4XeV1aMjr6JfHu6/TmSGf9kXlYHipbO737zmyCRrZNO3SfkfZtNvbtLVQKOT1lvyKyJxuphUwLgBuiGmKv/PlhkSASTgSlR3HAwKzDAf6aqItZn/Wnr/xZ+vaLXryCQiTpb5UtjIwEc3xlebB0zwNkFY1MZhGSLYSHDElpLbgrmG9FZYiAhl+0aMwJUF6+I3igtQy38A6UBCoIcroZa96PdgcqO9rA/muPk455dY4PDNwV2u2Fg2yI/E6erwDrUrlD+WAFd32K3oSAx23oxplRDDkxnEMmZjNFf8d9nV90I73c/j8HQdLsbY/w5zfFoh063ftdpTFG3Fb0WfrDTp2+wT/wqyY7TpPpVPXO+L0P1e8A0/nvms4aG2DVAzOIM3qGv6jSPPb5HfwoVLbkC67KZEnS63XHKiR4ANa+xY97OrOtq/O1jBR2IwmUXZAHOvtFDxPX7sknSPS8d2DUs7hZ1YT2+XXndMExXUPc/9kQTHVel0x6wanKGBUHQvNI/DjyGXcBjzQndoG9uuRfjomGm+QnfGwfYW8xMF2lpuFdo3wf6SzrZWak8+2YWMg5733iHecfuoufBGN+vLKNscK4MW1sFowihH/WOaBqLXnMW9gJbD4WMZ5KEAN/3LkVRY2R3bCBANOSpS2p1iol/d/UC/FUMlYAAzq5Ru2HjhDWQ7sz1CWDz9SupyG4gAHXL9VvBovz0DzZcq5XoI0Xtoov298C8K/Vv83LJtX/5sF038A&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div></center>
+<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
+                </div>
+            </div>
+        </div>
+        <!-- mind map end -->
+        <div class="row">
+            <div class="col-md-12 spazetop">
+                <div id="raazi-allsocial" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            </div>
+        </div>
+        <!-- Performance Across Platforms -->
+        <div class="row">
+            <div class="col-md-12 spazetop">
+                <h4 class="mb-3 spazetop hdtxtcolor"><center>Performance Across Platforms</center></h4>
+                <!-- Carousel Start -->
+                <div class="container-fluid spazetop">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="raazi-youtube" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="raazi-facebook" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="raazi-twitter" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="raazi-search" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Performance Across Platforms -->
+        <!-- Comparison -->
+        <!-- End Comparison -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/raazi.js"></script>
+    <script src="js/raazi-details.js"></script>
+</body>
+
+</html>
