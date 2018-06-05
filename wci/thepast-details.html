@@ -20,19 +20,28 @@
 </head>
 
 <body style="background-color: rgb(150,225,250);">
-    <ul class="nav" style="background-color: lightblue;">
-        <li class="nav-item dropdown ml-md-auto">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">Select Movie</a>
+    <!-- Copy start -->
+    <ul class="nav" >
+        <div class="nav-item">
+         <img src="images/log.png" style="padding-top: 0.3em; padding-left: 1em; padding-bottom: 0.2em;">
+        </div>
+        <li class="nav-item ml-md-auto">
+            <div id="movies">
+                
+            </div>
+        </li>
+        <li class="nav-item dropdown ml-md-auto" style="padding-right: 1em;">
+            <button class="btn btn-primary dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">Select Movie</button>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="index.html">Raazi</a>
                 <a class="dropdown-item" href="thepast-index.html">The Past</a>
                 <a class="dropdown-item" href="veer-index.html">Veer Ki Wedding</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="compare.html">Compare</a>
-
             </div>
         </li>
     </ul>
+    <!-- Copy end -->
     <div class="container-fluid spazetop">
         <div class="row">
             <div class="col-md-12">
@@ -56,9 +65,14 @@
                             </span> -->
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                         <div id="thepastmain" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                     </div>
+                    <div class="col-md-1 spazetop perfstats" style="padding-top: 8em; vertical-align: center;">
+            <i class="fas fa-angle-up fa-1x" style="color:Green;"></i> 5 WI
+            <br>
+            <i class="fas fa-angle-down fa-1x" style="color:Tomato;"></i> 1.4 WI
+          </div>
                 </div>
             </div>
         </div>
@@ -66,22 +80,39 @@
         
         <!-- End basic data -->
         <!-- Mind map start -->
+        
         <div class="row">
             <div class="col-md-12 spazetop">
+                <hr>
                 <div class="container-fluid spazetop">
-                    MInd map
+                    <h4 class="mb-3 spazetop hdtxtcolor"><center>Sentiment Mapping</center></h4>
+                    <center><img src="images/past-map.png" style="display:block;width:100%;max-width:600px"></center>
                 </div>
             </div>
         </div>
         <!-- mind map end -->
+        <hr>
         <div class="row">
-            <div class="col-md-12 spazetop">
+
+            <div class="col-md-10 spazetop">
                 <div id="thepast-allsocial" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
             </div>
+            <div class="col-md-2 spazetop perfstats" style="padding-top: 8em; vertical-align: center;">
+        <i class="fas fa-angle-up fa-1x" style="color:Green;"></i> 6726 Mentions
+        <br>
+        <i class="fas fa-angle-up fa-1x" style="color:Green;"></i> 162 Shares
+        <br>
+        <i class="fas fa-angle-down fa-1x" style="color:Tomato;"></i> 2769 Mentions
+        <br>
+        <i class="fas fa-angle-down fa-1x" style="color:Tomato;"></i> 67 Shares
+      </div>
         </div>
+        
+    </div>
         <!-- Performance Across Platforms -->
         <div class="row">
             <div class="col-md-12 spazetop">
+                <hr>
                 <h4 class="mb-3 spazetop hdtxtcolor"><center>Performance Across Platforms</center></h4>
                 <!-- Carousel Start -->
                 <div class="container-fluid spazetop">

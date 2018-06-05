@@ -1,4 +1,4 @@
-
+    
 Highcharts.chart('compare', {
     chart: {
         type: 'line',
@@ -37,20 +37,38 @@ Highcharts.chart('compare', {
                 lineWidth: 1,
                 lineColor: '#666666'
             }
-        }
+        },
     },
     series: [{
         name: 'Raazi',
         color: 'red',
-        data: [4.5, 6.5, 7.2, 6.5, 4.9, 6, 7.5, 7.1, 7.1, 6, 7.2, 7.8, 7.5, 8.112179487]
+        data: [4.5, 6.5, 7.2, 6.5, 4.9, 6, 7.5, 7.1, 7.1, 6, 7.2, 7.8, 7.5, 6.6],
+        zoneAxis: 'x',
+        zones: [{
+            value: 12
+        }, {
+            dashStyle: 'dot'
+        }]
     }, {
         name: 'The Past',
         color: 'green',
-        data: [0, 1.9, 2.5, 2.1, 2, 1.4, 5, 3, 2, 1.5, 1.5, 3.4, 3.3, 4.660980392]
+        data: [0, 1.9, 2.5, 2.1, 2, 1.4, 5, 3, 2, 1.5, 1.5, 3.4, 3.3, 2.6],
+        zoneAxis: 'x',
+        zones: [{
+            value: 12
+        }, {
+            dashStyle: 'dot'
+        }]
     }, {
         name: 'Veer Ki Wedding',
         color: 'black',
-        data: [0, 0, 0, 0, 0, 6.4, 8.5, 6, 5.6, 6.7, 7.4, 8.9, 8.5, 9.243003401]
+        data: [0, 0, 0, 0, 0, 6.4, 8.5, 6, 5.6, 6.7, 7.4, 8.9, 8.5, 7.5],
+        zoneAxis: 'x',
+        zones: [{
+            value: 12
+        }, {
+            dashStyle: 'dot'
+        }]
     }]
 });
 
