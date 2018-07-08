@@ -1,5 +1,4 @@
-
-Highcharts.chart('raazimain', {
+Highcharts.chart('Raazimain', {
   chart: {
     type: 'area',
     backgroundColor:'rgba(255, 255, 255, 0)'
@@ -7,9 +6,9 @@ Highcharts.chart('raazimain', {
   title: {
     text: 'Historical Performance'
   },
-  
+
   exporting: {
-    enabled: false 
+    enabled: false
   },
 
   xAxis: {

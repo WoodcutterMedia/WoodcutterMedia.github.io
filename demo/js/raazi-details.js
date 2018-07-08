@@ -2,7 +2,7 @@
 
 // Raazi Youtube
 
-Highcharts.chart('raazi-youtube', {
+Highcharts.chart('Raazi-youtube', {
     chart: {
         type: 'line',
         backgroundColor: 'rgba(255, 255, 255, 0.0)'
@@ -69,7 +69,7 @@ Highcharts.chart('raazi-youtube', {
         color: 'red',
         data: [12567, 18152.33333, 18500, 18152.33333, 13684.06667, 16756, 20945, 19827.93333, 19827.93333, 16756, 20107.2, 12568, 12084.61538]
     }, {
-        name: 'Comments', 
+        name: 'Comments',
         color: 'magenta',
         data: [4568, 6598.222222, 7308.8, 6598.222222, 4974.044444, 6090.666667, 7613.333333, 7207.288889, 7207.288889, 6090.666667, 7308.8, 7917.866667, 7613.333333]
     }]
@@ -77,7 +77,7 @@ Highcharts.chart('raazi-youtube', {
 
 // Raazi Facebook
 
-Highcharts.chart('raazi-facebook', {
+Highcharts.chart('Raazi-facebook', {
     chart: {
         type: 'line',
         backgroundColor: 'rgba(255, 255, 255, 0.0)'
@@ -153,7 +153,7 @@ Highcharts.chart('raazi-facebook', {
         color: 'red',
         data: [8168.55, 11799.01667, 12025, 11799.01667, 6500, 10891.4, 13614.25, 12888.15667, 12888.15667, 10891.4, 11000, 8169.2, 7855]
     }, {
-        name: 'Shares', 
+        name: 'Shares',
         color: 'green',
         data: [2969.2, 4288.844444, 4750.72, 4288.844444, 3233.128889, 3958.933333, 4948.666667, 4684.737778, 4684.737778, 3958.933333, 4750.72, 5146.613333, 4948.666667]
     }]
@@ -161,7 +161,7 @@ Highcharts.chart('raazi-facebook', {
 
 // Raazi Twitter
 
-Highcharts.chart('raazi-twitter', {
+Highcharts.chart('Raazi-twitter', {
     chart: {
         type: 'line',
         backgroundColor: 'rgba(255, 255, 255, 0.0)'
@@ -228,20 +228,20 @@ Highcharts.chart('raazi-twitter', {
         color: 'blue',
         data: [4398.45, 6353.316667, 6475, 6353.316667, 7184.066667, 5864.6, 7330.75, 6939.776667, 6939.776667, 5864.6, 9107.2, 4398.8, 4229.615385]
     }, {
-        name: 'Retweets', 
+        name: 'Retweets',
         color: 'navy',
         data: [1598.8, 2309.377778, 2558.08, 2309.377778, 1740.915556, 2131.733333, 2664.666667, 2522.551111, 2522.551111, 2131.733333, 2558.08, 2771.253333, 2664.666667]
     }]
 });
 
 // Raazi Search
-// Highcharts.chart('raazi-search', {
+// Highcharts.chart('Raazi-search', {
 //     chart: {
 //         type: 'column'
 //     },
 //     data: {
 //         // enablePolling: true,
-//         csvURL: window.location.origin + 'data/raazi.csv'
+//         csvURL: window.location.origin + 'data/Raazi.csv'
 //     },
 //     title: {
 //         text: 'Fruit Consumption'
@@ -252,7 +252,7 @@ Highcharts.chart('raazi-twitter', {
 //         }
 //     }
 // });
-Highcharts.chart('raazi-search', {
+Highcharts.chart('Raazi-search', {
     chart: {
         type: 'line',
         backgroundColor: 'rgba(255, 255, 255, 0.0)'
@@ -328,7 +328,7 @@ Highcharts.chart('raazi-search', {
 
 // Social Media Performances
 
-Highcharts.chart('raazi-allsocial', {
+Highcharts.chart('Raazi-allsocial', {
     chart: {
         type: 'line',
         backgroundColor:'rgba(255, 255, 255, 0)'
@@ -338,7 +338,7 @@ Highcharts.chart('raazi-allsocial', {
     },
 
     exporting: {
-    enabled: false 
+    enabled: false
     },
 
     xAxis: {
@@ -373,7 +373,7 @@ Highcharts.chart('raazi-allsocial', {
         // color: 'red',
         data: [12567,18152.33333,18500,18152.33333,13684.06667,16756,20945,19827.93333,19827.93333,16756,20107.2,12568,12084.61538]
     }, {
-        name: 'Shares', 
+        name: 'Shares',
         // color: 'green',
         data: [ 4568,6598.222222,7308.8,6598.222222,4974.044444,6090.666667,7613.333333,7207.288889,7207.288889,6090.666667,7308.8,7917.866667,7613.333333]
     }]

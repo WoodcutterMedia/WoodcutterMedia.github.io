@@ -15,6 +15,14 @@
     <script src="js/carousel.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <!-- Highcharts Tree -->
+    <script src="https://rawgit.com/skorunka/highcharts.tree/master/dist/tree.js"></script>
+    <script src="https://rawgit.com/skorunka/highcharts.tree/master/dist/highcharts.tree.js"></script>
+    <!-- Treant -->
+    <script src="js/treant.js"></script>
+    <script src="js/raphael.js"></script>
+    <link href="css/treant.css" rel="stylesheet">
+    <script src="js/veer-mindmap.js"></script>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
@@ -24,8 +32,8 @@
         <li class="nav-item dropdown ml-md-auto">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">Select Movie</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="index.html">Raazi</a>
-                <a class="dropdown-item" href="thepast-index.html">The Past</a>
+                <a class="dropdown-item" href="index.html">Sanju</a>
+                <a class="dropdown-item" href="thepast-index.html">Race 3</a>
                 <a class="dropdown-item" href="veer-index.html">Veer Ki Wedding</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="compare.html">Compare</a>
@@ -47,7 +55,7 @@
                         <h1>Veer Ki Wedding</h1>
                         <h1 style="color: green; font-size: 2.5em;"><b>3.3</b><sup>WI</sup></h1>
                         <a href="veer-index.html" class="btn btn-outline-success" role="button"><i class="fas fa-chevron-left"></i> Overview</a>
-                        <!-- <b class="greycolor">Cast:</b> <span class="greycolor">Alia Bhatt, Vicky Kaushal, Ashwath Bhatt, Rajit Kapur </span>
+                        <!-- <b class="greycolor">Cast:</b> <span class="greycolor">Ranbir Kapoor, Paresh Rawal, Dia Mirza, Mansha Koirala </span>
                         <br>
                         <span class="greycolor">
                             <b>Release date:</b>11 May 2018 (India)<br>
@@ -63,16 +71,17 @@
             </div>
         </div>
         <!-- Basic data  -->
-        
+
         <!-- End basic data -->
         <!-- Mind map start -->
         <div class="row">
             <div class="col-md-12 spazetop">
                 <div class="container-fluid spazetop">
-                    <h4 class="mb-3 spazetop hdtxtcolor"><center>Sentiment Mapping</center></h4>
-                    <center>
-                    <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36\&quot; version=\&quot;8.6.5\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;02931818-c045-b87f-1095-61189a29de51\&quot; name=\&quot;Page-1\&quot;&gt;3VlRV6M4FP41PT7pgVAQHi1W1zPrOmfqnJl5TCGFLJSwIbXt/PpJgAABqh0Ft45HbfhuknuT++VLQieGu97dUpiG98RH8QRo/m5iXE8AcEyN/xfAvgBMYBVAQLFfQHoNLPBPVIJlu2CDfZQpFRkhMcOpCnokSZDHFAxSSrZqtRWJVa8pDFAHWHgw7qLfsM/CArXlsAT+F8JBKD3rWmlZQi8KKNkkpb8JMFb5T2FeQ9lXWT8LoU+2DciYTwyXEsKK0nrnolhMrZy2ot3NAWsVN0UJO6YBKBo8wXiDZMRWzJvOfPwk4mP7ck6s/zYiqBlDO3YOYxwkE+OK14jRitVWXgrEp3u1eJQ9ZZulhO1IgjykBj4RYRaGFeGR9zkWhvMsp4rwq9vpruvX4fGbDR9Fb9JJBeeDkyhQ3IE8e0jMj87N2xAztEihJ6xbTnaOhWwdl+YVjmOXxITmbQ3LmoGbGzFmRkmEmhbPRstV5a+ZoTJpT4jyuW1AZcZuEVkjRve8irRKHparS5+Wz9uaq7pkWNjgqawHy+URVF3XFOGFkiX9jLkciTH3Xxd3bg9lwEHKWHAtspEss7SR3bfxxzZf5s8RQXRCHZt4rjs3+4m3tM0p58s4xHPekXh2h3jXd1/m7uPdwz+86eLx4cuPngxNo9/L0RvpYzxHnzGEZoisampWQY+cgLGy6vRk9ervh9uv88X/LgbOe2WzWr1DZNNoZbNvjU5HyqbeXaSdiUI+P2qVjyheku28BmY5wA0hofgnn24YCzDxr8ShjuNeDLMMe+psoh1m3xvlH7ysXZh5Sz4AYdLkQ207ONcZ2VAPKecjBmmAylqCEgIT43g2IY0JN3vmW2IUxZDhJ/Xk2ZeE0sNngnNSl/k2tAOHAdlFMZyyVfMo2O5oaisd2abaTzEHnX54ZuC+US0VFbJn4gVqvJfKAZUXig5rulUzehQDZXYGP5984kRBCeT2TzAlfOXyQggT/nHO/xxLlQplnx/C/YIkcN10nns1x/a6hVQMeRbCLILSre2M7TbEUSj8PsI4gwmGcrzaM44/3DHesNSVYPZsu3qPcFwOINTyPn4qQn2UGF+elvC2hExvC+bRwmu1O2ol+IDyvkYdx7q9VWe1VEhiJVlBJleurq7cZj0JL+lLF6YhIp3d3ksZA3+ymugmuDCPExTTPMz9owWl7+Q3FrOuMUUeq7ZBWzsVcvUuAx7oXkZqvRzpH8fE3vvkaDzsXijfY2N7zT1DuVTYJ723dVJz9N7mtDoCb71VvGH3kzfjwTXqTHaDJfKwR7x2AJN/xdk1RSgSzxDuxWPI/yJeMm7Eb73scVsKKuD8rL9aZ18dXNF6hkYDmImrSN6b5oX8iiAes00UnsntfqqG1RnZxxc5SeR9a8U0Rc4e6TWLofcQ+SO/ZnG6iigX64koImgJmQGMi9dqYusNndGmxFBvWlpvhqTfV75q4Y/195JF9fq7X2P+Cw==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div></center>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
+                  <h4 class="mb-3 spazetop hdtxtcolor" style="font-size:18px; color: black;"><center>Sentiment Mapping</center></h4>
+                  <div class="chart" id="basic-example"></div>
+                  <script>
+                     new Treant( chart_config );
+                  </script>
                 </div>
             </div>
         </div>
