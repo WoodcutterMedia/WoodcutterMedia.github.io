@@ -9,7 +9,7 @@ Highcharts.chart('compare', {
     },
 
     exporting: {
-    enabled: false 
+    enabled: false
     },
 
     xAxis: {
@@ -40,11 +40,11 @@ Highcharts.chart('compare', {
         }
     },
     series: [{
-        name: 'Raazi',
+        name: 'Sanju',
         color: 'red',
         data: [4.5, 6.5, 7.2, 6.5, 4.9, 6, 7.5, 7.1, 7.1, 6, 7.2, 7.8, 7.5, 8.112179487]
     }, {
-        name: 'The Past',
+        name: 'Race 3',
         color: 'green',
         data: [0, 1.9, 2.5, 2.1, 2, 1.4, 5, 3, 2, 1.5, 1.5, 3.4, 3.3, 4.660980392]
     }, {
@@ -66,7 +66,7 @@ Highcharts.chart('webmentions', {
     },
 
     exporting: {
-    enabled: false 
+    enabled: false
     },
 
     xAxis: {
@@ -97,11 +97,11 @@ Highcharts.chart('webmentions', {
         }
     },
     series: [{
-        name: 'Raazi',
+        name: 'Sanju',
         color: 'red',
         data: [12567, 18152.33333, 18500, 18152.33333, 13684.06667, 16756, 20945, 19827.93333, 19827.93333, 16756, 20107.2, 12568, 12084.61538]
     }, {
-        name: 'The Past', 
+        name: 'Race 3',
         color: 'green',
         data: [0, 3759, 4946.052632, 4154.684211, 3956.842105, 2769.789474, 4500, 5935.263158, 4200, 4500, 3500, 6726.631579, 6528.789474]
     }, {
@@ -123,7 +123,7 @@ Highcharts.chart('webshares', {
     },
 
     exporting: {
-    enabled: false 
+    enabled: false
     },
 
     xAxis: {
@@ -155,11 +155,11 @@ Highcharts.chart('webshares', {
     },
     series: [{
         // showCheckbox: true,
-        name: 'Raazi',
+        name: 'Sanju',
         color: 'red',
         data: [4568, 6598.222222, 7308.8, 6598.222222, 4974.044444, 6090.666667, 7613.333333, 7207.288889, 7207.288889, 6090.666667, 7308.8, 7917.866667, 7613.333333]
     }, {
-        name: 'The Past', 
+        name: 'Race 3',
         color: 'green',
         data: [0, 91, 119.7368421, 100.5789474, 95.78947368, 67.05263158, 239.4736842, 143.6842105, 95.78947368, 71.84210526, 71.84210526, 162.8421053, 158.0526316]
     }, {
