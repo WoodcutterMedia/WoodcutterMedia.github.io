@@ -48,7 +48,7 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;*/
-    
+
     background: black; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(black, #212120); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(black, #212120); /* For Opera 11.1 to 12.0 */
@@ -85,10 +85,10 @@ canvas {
 /*Made with Love in Chennai*/
 /* Working method */
 .posterimage {
-  background: 
-    /* top, transparent red, faked with gradient */ 
+  background:
+    /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
     /* bottom, image */
@@ -97,10 +97,10 @@ canvas {
 
 /*Video Background for Careers Page*/
 .videobg {
-  background: 
-    /* top, transparent red, faked with gradient */ 
+  background:
+    /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
    /* position: fixed;
@@ -231,7 +231,7 @@ video.fillWidth {
 .vertcenter {
     height: 150px;
     width: 400px;
-/*    background: #000;*/ 
+/*    background: #000;*/
      /*font-size: 24px;*/
 /*    font-style: oblique;
 */    color: #FFF;
@@ -243,5 +243,9 @@ video.fillWidth {
     align-items: center; /* align vertical */
 }
 
-
-
+.pripolcontent {
+  margin-left: 15em;
+  margin-right: 15em;
+  /* display: table;
+  margin: 0 auto; */
+}
