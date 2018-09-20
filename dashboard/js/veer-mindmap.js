@@ -65,7 +65,7 @@ var config = {
     cast2 = {
         parent: cast,
         text:{
-            name: "Pulkit Sharma",
+            name: "Pulkit Samrat",
             title: "88%",
         },
     },
