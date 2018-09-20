@@ -20,7 +20,7 @@ var config = {
     },
     film = {
         text: {
-            name: "Veer Ki Wedding",
+            name: "Veerey Ki Wedding",
             // childrenDropLevel: 0,
         },
     },

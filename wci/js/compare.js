@@ -60,7 +60,7 @@ Highcharts.chart('compare', {
             dashStyle: 'dot'
         }]
     }, {
-        name: 'Veer Ki Wedding',
+        name: 'Veerey Ki Wedding',
         color: 'black',
         data: [0, 0, 0, 0, 0, 6.4, 8.5, 6, 5.6, 6.7, 7.4, 8.9, 8.5, 7.5],
         zoneAxis: 'x',
@@ -123,7 +123,7 @@ Highcharts.chart('webmentions', {
         color: 'green',
         data: [0, 3759, 4946.052632, 4154.684211, 3956.842105, 2769.789474, 4500, 5935.263158, 4200, 4500, 3500, 6726.631579, 6528.789474]
     }, {
-        name: 'Veer Ki Wedding',
+        name: 'Veerey Ki Wedding',
         color: 'black',
         data: [0, 0, 0, 0, 0, 15558, 25000, 14585.625, 13613.25, 16287.28125, 15000, 21635.34375, 20662.96875]
     }]
@@ -181,7 +181,7 @@ Highcharts.chart('webshares', {
         color: 'green',
         data: [0, 91, 119.7368421, 100.5789474, 95.78947368, 67.05263158, 239.4736842, 143.6842105, 95.78947368, 71.84210526, 71.84210526, 162.8421053, 158.0526316]
     }, {
-        name: 'Veer Ki Wedding',
+        name: 'Veerey Ki Wedding',
         color: 'black',
         data: [0, 0, 0, 0, 0, 6745, 8958.203125, 6323.4375, 5901.875, 7061.171875, 7798.90625, 9379.765625, 8958.203125]
     }]

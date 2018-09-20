@@ -63,7 +63,7 @@ Highcharts.chart('veermain', {
   },
   series: [{
     fillOpacity: 0.3,
-    name: 'Veer Ki Wedding',
+    name: 'Veerey Ki Wedding',
     showInLegend: false,
     data: [
       0, 0, 0, 0, 0, 6.4, 8.5, 6, 5.6, 6.7, 7.4, 8.9, 8.5
