@@ -117,7 +117,7 @@ var config = {
     dialogue1 = {
         parent: dialogues,
         text:{
-            name: '"Aaj hum kuthon ki tarah piyengey"',
+            name: '"Ladkiyon ke peeche zyada nahi bhaagna chahiye ... lautna mushkil ho jaata hai"',
             title: "82%"
         }
     },
