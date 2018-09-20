@@ -19,6 +19,7 @@ var config = {
 
     },
     film = {
+        collapsed: true,
         text: {
             name: "Race 3",
             // childrenDropLevel: 0,
@@ -66,7 +67,7 @@ var config = {
         parent: cast,
         text:{
             name: "Jacqueline Fernandez",
-            title: "86%",
+            title: "63%",
         },
     },
     cast3 = {
@@ -80,7 +81,7 @@ var config = {
         parent: cast,
         text:{
             name: "Salman Khan",
-            title: "63%"
+            title: "86%"
         },
     },
     songs = {
