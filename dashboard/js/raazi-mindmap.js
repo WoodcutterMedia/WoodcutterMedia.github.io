@@ -48,14 +48,14 @@ var config = {
         collapsed: true,
         text:{
             name: "Direction/Story",
-            title: "80%",
+            title: "82%",
         },
     },
     cast1 = {
         parent: cast,
         text:{
             name: "Ranbir Kapoor",
-            title: "94%"
+            title: "95%"
         },
     },
     cast2 = {
@@ -69,42 +69,42 @@ var config = {
         parent: cast,
         text:{
             name: "Dia Mirza",
-            title: "67%"
+            title: "69%"
         },
     },
     cast4 = {
         parent: cast,
         text:{
             name: "Mansha Koirala",
-            title: "56%"
+            title: "66%"
         },
     },
     songs = {
         parent: music,
         text:{
             name: "Songs",
-            title: "94%"
+            title: "91%"
         },
     },
     bgm = {
         parent: music,
         text:{
             name: "BGM",
-            title: "89%"
+            title: "94%"
         }
     },
     director = {
         parent: direction,
         text:{
             name: "Director",
-            title: "84%"
+            title: "75%"
         }
     },
     story = {
         parent: direction,
         text:{
             name: "Story",
-            title: "81%"
+            title: "78%"
         }
     },
 
@@ -113,7 +113,7 @@ var config = {
         collapsed: true,
         text:{
             name: "Dialogues",
-            title: "96%"
+            title: "86%"
         }
     },
 
@@ -121,7 +121,7 @@ var config = {
         parent: dialogues,
         text:{
             name: '"The first time I took drugs, it was because my father didnt like me. The second time, it was because my mother was dying. The third time, I was an addict."',
-            title: "96%"
+            title: "93%"
         }
     },
 

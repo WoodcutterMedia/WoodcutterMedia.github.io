@@ -29,7 +29,7 @@ var config = {
         parent: film,
         text:{
             name: "Cast",
-            title: "65%",
+            title: "64s%",
         },
         stackChildren: true,
         collapsed: true,
@@ -40,7 +40,7 @@ var config = {
         collapsed: true,
         text:{
             name: "Music",
-            title: "59%",
+            title: "69%",
         },
     },
     direction = {
@@ -48,7 +48,7 @@ var config = {
         collapsed: true,
         text:{
             name: "Direction/Story",
-            title: "34%",
+            title: "24%",
         },
     },
 
@@ -57,7 +57,7 @@ var config = {
         collapsed: true,
         text:{
             name: "Dialogues",
-            title: "52%"
+            title: "62%"
         }
     },
 
@@ -66,49 +66,49 @@ var config = {
         parent: cast,
         text:{
             name: "Jacqueline Fernandez",
-            title: "78%",
+            title: "86%",
         },
     },
     cast3 = {
         parent: cast,
         text:{
             name: "Anil Kapoor",
-            title: "67%"
+            title: "76%"
         },
     },
     cast4 = {
         parent: cast,
         text:{
             name: "Salman Khan",
-            title: "69%"
+            title: "63%"
         },
     },
     songs = {
         parent: music,
         text:{
             name: "Songs",
-            title: "88%"
+            title: "87%"
         },
     },
     bgm = {
         parent: music,
         text:{
             name: "BGM",
-            title: "81%"
+            title: "71%"
         }
     },
     director = {
         parent: direction,
         text:{
             name: "Director",
-            title: "48%"
+            title: "58%"
         }
     },
     story = {
         parent: direction,
         text:{
             name: "Story",
-            title: "56%"
+            title: "36%"
         }
     },
 
@@ -118,7 +118,7 @@ var config = {
         parent: dialogues,
         text:{
             name: '"Yeh Race Zindagi Ki Race Hai … Kisi Ki Zindagi Leke Hi Khatam Hogi"',
-            title: "96%"
+            title: "76%"
         }
     },
 
