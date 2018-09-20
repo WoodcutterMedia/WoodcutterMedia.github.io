@@ -65,21 +65,21 @@ var config = {
     cast2 = {
         parent: cast,
         text:{
-            name: "Vedita Pratap Singh",
+            name: "Jacqueline Fernandez",
             title: "78%",
         },
     },
     cast3 = {
         parent: cast,
         text:{
-            name: "Yuvraj Parashar",
+            name: "Anil Kapoor",
             title: "67%"
         },
     },
     cast4 = {
         parent: cast,
         text:{
-            name: "Rajesh Sharma",
+            name: "Salman Khan",
             title: "69%"
         },
     },
@@ -117,7 +117,7 @@ var config = {
     dialogue1 = {
         parent: dialogues,
         text:{
-            name: '"watan aghe kuch bhi nahi khudh bhi nahi"',
+            name: '"Yeh Race Zindagi Ki Race Hai … Kisi Ki Zindagi Leke Hi Khatam Hogi"',
             title: "96%"
         }
     },

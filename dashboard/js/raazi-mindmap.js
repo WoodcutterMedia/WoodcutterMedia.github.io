@@ -120,7 +120,7 @@ var config = {
     dialogue1 = {
         parent: dialogues,
         text:{
-            name: '"watan aghe kuch bhi nahi khudh bhi nahi"',
+            name: '"The first time I took drugs, it was because my father didnt like me. The second time, it was because my mother was dying. The third time, I was an addict."',
             title: "96%"
         }
     },

@@ -117,7 +117,7 @@ var config = {
     dialogue1 = {
         parent: dialogues,
         text:{
-            name: '"watan aghe kuch bhi nahi khudh bhi nahi"',
+            name: '"Aaj hum kuthon ki tarah piyengey"',
             title: "82%"
         }
     },
