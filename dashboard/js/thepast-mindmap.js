@@ -20,7 +20,7 @@ var config = {
     },
     film = {
         text: {
-            name: "The Past",
+            name: "Race 3",
             // childrenDropLevel: 0,
         },
     },
