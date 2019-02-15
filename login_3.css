@@ -1,0 +1,18 @@
+
+
+body{
+	background-image: url("/Users/arshad.nujoom/Documents/Untitled 3/Untitled 3.001.jpeg");
+}
+p{
+	position: absolute;
+	top: 170px; left: 60px;
+	font-size: 30pt;
+	text-align: right;
+
+}
+h1{position: absolute;
+	top: 50px; left: 500px;
+	font-size: 50pt;
+	text-align: center;
+
+}
