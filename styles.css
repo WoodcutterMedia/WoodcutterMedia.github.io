@@ -22,6 +22,7 @@ hr {
 .one-row {
     padding: 2vh 2vw;
     overflow: hidden;
+
 }
 
 .container {
@@ -48,6 +49,7 @@ hr {
     padding: 40px;
     height: 450px;
     width: 40vw;
+    
 }
 
 .graphs {
@@ -55,6 +57,7 @@ hr {
     height: 400px;
     display: block;
     margin: auto;
+
 }
 
 .insights_div {
