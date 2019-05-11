@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140008734-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,101 +12,194 @@
   gtag('config', 'UA-140008734-1');
 </script>
 
-	<link rel="stylesheet" href="dc_styles.css">
-	<meta charset="utf-8">
-	<title>Dear Comrade Analysis</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-
-	<style>
-		.box1{
-			overflow:auto;
-			border-radius: 25px;
-			position:absolute;top: 130px; left: 800px;width:200px;height:300px;border: 2px solid #4CAF50;padding:8px;
-		}
-		.box2{
-			overflow:auto;
-			border-radius: 25px;
-			position:absolute;top: 630px; left: 800px;width:200px;height:300px;border: 2px solid #4CAF50;padding:8px;
-		}
-		.box3{
-			overflow:auto;
-			border-radius: 25px;
-			position:absolute;top: 1130px; left: 800px;width:200px;height:300px;border: 2px solid #4CAF50;padding:8px;
-		}
-		.box4{
-			overflow:auto;
-			border-radius: 25px;
-			position:absolute;top: 1530px; left: 800px;width:200px;height:300px;border: 2px solid #4CAF50;padding:8px;
-		}
-		.yt{ position: -webkit-sticky;
-			position:sticky;
-			top:0;
-
-		}
-html,
-body {
-  height: 200%;
-  margin: 0;
-}
-
-
-</style>
-	
-	<img style="position:absolute; width: 100px; height: 50px; top:250px; left:10px;" src="images/youtube_logo.jpg">
-	<img style="position:absolute; width: 100px; height: 50px; top:750px; left:10px;" src="images/youtube_logo.jpg">
-	<img style="position:absolute; width: 120px; height: 80px; top:1250px; left:10px;" src="images/twitter.jpg">
+    <meta charset="UTF-8">
+    <title>Dear Comrade Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<div class='topp'>
-	<h1 align='middle' style="font-size:100vw font-family:verdana">Dear Comrade Analytics Dashboard</h1>
-	<img style="position:absolute; width: 150px; height: 50px; top:2px; left:50px;" src="images/logo.png">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh5U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<div class="row top-bar">
+    <div class="col-3">
+        <a href="http://woodcutter.co"> <img class="woodcutter-logo" src="images/logo.png"></a>
+    </div>
+    <div class="col-9 heading-style">
+        <strong>Dear Comrade Analytics Dashboard</strong>
+    </div>
+    <br>
+    <br>
 </div>
+<div class="container">
+    <p style="color:#4CAF50;" align="center" >
+        <br>There are 7 graphs in this dashboard with live comparisons from similar songs promotions. The data gets updated every 2 hours.</br> 
+        <br>This is a testing version. Please excuse any imperfections and offer your valuable feedback. Thank you!</br> </p>
+    <!--GRAPH 1 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 100px; height: 50px;" src="images/youtube_logo.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
+            <iframe class="graphs" seamless frameborder="0"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=1304664605&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from YouTube Engagement</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
+<!--GRAPH 2 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 100px; height: 50px;" src="images/youtube_logo.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
 
 
-	
-
-		<div style="height:25%" align="middle">
-		
-		<h3 class="yt"> Youtube Insights </h3>
-
-		<iframe style="width: 600px; height: 350px; top:100px; left: 120px;    display: block;    position: absolute;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=1304664605&amp;format=interactive"></iframe>
-
-
-		<div class='box1'> 
-			<h4>Insights from YouTube Engagement</h4>
-			<p >Dear Comrade has taken off well compared to all the songs under comparison.Dear Comrade has taken off well compared to all the songs under comparisonDear Comrade has taken off well compared to all the songs under comparison</p> </div>
-
-			<iframe style="width: 300px; height: 350px; top: 100px; left: 1100px;    display: block;    position: absolute;" src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-		<iframe style="width: 600px; height: 350px; top: 600px; left: 120px;    display: block;    position: absolute;" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=1402749921&amp;format=interactive"></iframe>
-
-		<div class='box2'> 
-			<h4>Insights from YouTube View Growth</h4>
-			<p></p> </div>
-
-				<iframe style="width: 300px; height: 350px; top: 600px; left: 1100px;    display: block;    position: absolute;" src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+                    <iframe class="graphs" seamless frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=409879687&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from YouTube Engagement</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
+<!--GRAPH 3 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 100px; height: 50px;" src="images/youtube_logo.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
+            <iframe class="graphs" seamless frameborder="0"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=1402749921&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from YouTube View Growth</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
+<!--GRAPH 4 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 120px; height: 80px;" src="images/twitter.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
+            <iframe class="graphs" seamless frameborder="0"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=844414587&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from Twitter Buzz</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
+<!--GRAPH 5 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 120px; height: 80px;" src="images/twitter.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
+            <iframe class="graphs" seamless frameborder="0"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=2118818696&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from Twitter Buzz</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
+<!--GRAPH 6 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 120px; height: 80px;" src="images/twitter.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
+            <iframe class="graphs" seamless frameborder="0"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=299863149&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from Twitter Buzz</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
+<!--GRAPH 7 -->
+    <div class="row one-row" style="overflow: scroll">
+        <div class="col-md-1 col-xs-12 logo">
+            <img style=" width: 120px; height: 80px;" src="images/twitter.jpg">
+        </div>
+        <div class="col-md-5 col-xs-12 graphs-div">
+            <iframe class="graphs" seamless frameborder="0"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=299863149&amp;format=interactive"></iframe>
+        </div>
+        <div class="col-md-3 col-xs-12 insights-div">
+            <div class="insights">
+                <h5>Insights from Twitter Buzz</h5>
+                <p class="insights-content"></p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 forms-div">
+            <iframe class="forms" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true">
+                Loading...
+            </iframe>
+        </div>
+    </div>
 </div>
-
-
-<div style="height:100%" align="middle">
-	<h3 class="yt"> Twitter Insights </h3>
-		<iframe style="width: 600px; height: 350px; top: 1100px; left: 120px;    display: block;    position: absolute;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=723007773&amp;format=interactive"></iframe>
-
-
-		<div class='box3'> 
-			<h4>Insights from Twitter Buzz</h4>
-			<p></p> </div>
-
-				<iframe style="width: 300px; height: 350px; top: 1100px; left: 1100px;    display: block;    position: absolute;" src="https://docs.google.com/forms/d/e/1FAIpQLSe6yVPBPxIu1n-0XIb6A0yKSqecTVbA73-KgvqHhN1PgfO2KQ/viewform?embedded=true" width="120" height="10" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-				<iframe style="width: 600px; height: 350px; top: 1600px; left: 120px;    display: block;    position: absolute;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRI_Oz8abTL_CDvXu5FxZZSyPUDL_4llD-Mh6xo1VWPHWPk_-h51vM3hyY-c5UsLhN8jTWGfFHWEZpI/pubchart?oid=299863149&amp;format=interactive"></iframe>
-
-	</div>
-	
-	</body>
-
+</body>
 </html>
