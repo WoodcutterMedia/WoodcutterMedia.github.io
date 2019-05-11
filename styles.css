@@ -86,13 +86,29 @@ h5 {
     /*    display: block;*/
     /*    margin: auto;*/
     /*}*/
+    .top-bar{display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;}
+
+
     .woodcutter-logo {
-        margin: 1vw;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        margin: auto;
+
     }
 
     .heading-style {
         font-size: 20px;
         margin: 1vw;
+        justify-content: center;   
     }
 
     .logo {
