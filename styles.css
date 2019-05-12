@@ -8,7 +8,6 @@ hr {
 }
 
 
-
 .heading-style {
     font-family: Verdana, sans-serif;
     font-size: 30px;
@@ -22,7 +21,7 @@ hr {
 .one-row {
     padding: 2vh 2vw;
     overflow: hidden;
-    
+
 
 }
 
@@ -50,7 +49,7 @@ hr {
     padding: 40px;
     height: 450px;
     width: 40vw;
-
+    z-index: 5
 }
 
 .graphs {
@@ -58,7 +57,6 @@ hr {
     height: 400px;
     display: block;
     margin: auto;
-
 }
 
 .insights_div {
@@ -76,7 +74,6 @@ hr {
     border: 2px solid #4CAF50;
     padding: 10px;
     margin: 10vh auto auto;
-
 }
 
 .forms {
@@ -93,17 +90,28 @@ hr {
     text-align: justify;
 }
 
+.sticky-div {
+    position: sticky;
+    top: 0;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    z-index: 10;
+    background: white;
+}
+
 @media only screen and (max-width: 767px) {
     /*.logo,.graphs-div,.insights_div,.forms-div{*/
     /*    display: block;*/
     /*    margin: auto;*/
     /*}*/
-    .top-bar{display: -webkit-flex;
+    .top-bar {
+        display: -webkit-flex;
         display: flex;
         -webkit-align-items: center;
         align-items: center;
         -webkit-justify-content: center;
-        justify-content: center;}
+        justify-content: center;
+    }
 
 
     .woodcutter-logo {
