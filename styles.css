@@ -110,9 +110,9 @@ hr {
     position: sticky;
     top: 0;
     padding-bottom: 1vh;
-    padding-top: 5vh;
+    padding-top: 10vh;
     z-index: 10;
-    background:  white;
+    background:   #c6d9ec;
 }
     .top-bar {
         display: -webkit-flex;
