@@ -102,11 +102,19 @@ hr {
     background: white;
 }
 
+.star{
+    color:#006600; 
+    font-size:1.3vw;}
+
 @media only screen and (max-width: 767px) {
     /*.logo,.graphs-div,.insights_div,.forms-div{*/
     /*    display: block;*/
     /*    margin: auto;*/
     /*}*/
+    .star{
+    color:#006600; 
+    font-size:5vw;}
+
     .sticky-div {
     position: -webkit-sticky;
     position: sticky;
