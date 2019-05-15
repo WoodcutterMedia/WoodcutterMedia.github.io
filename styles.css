@@ -61,16 +61,26 @@ hr {
 
 .insights_div {
     width: 18vw;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
 }
 
-.insights {
+.insights_small {
     overflow: auto;
     border-radius: 15px;
     width: 16vw;
     height: 200px;
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    margin: 10vh auto auto;
+}
+
+.insights_big {
+    overflow: auto;
+    border-radius: 15px;
+    width: 16vw;
+    height: 300px;
     border: 2px solid #4CAF50;
     padding: 10px;
     margin: 10vh auto auto;
