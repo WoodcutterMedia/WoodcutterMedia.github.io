@@ -61,7 +61,7 @@ hr {
 
 .insights_div {
     width: 18vw;
-    height: 450px;
+    height: 250px;
     display: flex;
     align-items: center;
 }
@@ -70,7 +70,7 @@ hr {
     overflow: auto;
     border-radius: 15px;
     width: 16vw;
-    height: 300px;
+    height: 200px;
     border: 2px solid #4CAF50;
     padding: 10px;
     margin: 10vh auto auto;
@@ -87,7 +87,7 @@ hr {
 
 .insights-content {
     font-size: small;
-    text-align: justify;
+    
 }
 
 .sticky-div {
